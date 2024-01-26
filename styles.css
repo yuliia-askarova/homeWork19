@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.conteiner {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+button {
+    background-color: rgb(32, 197, 79);
+    color: black;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-active {
+    box-shadow: 6px 9px 0 2px rgba(0, 0, 0, 0.1);
+}
